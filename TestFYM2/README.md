@@ -19,6 +19,13 @@ Suivre ce tutoriel :
 
 CONTENU DU PROGRAMME :
 
+Ce programme consiste a trouver les memes chiffres qui s'affichent un nombre impaire de fois. 
+
+- main.cpp : 
+
+il contient au debut l'appel de la methode valOdd puis l'affichage du tableau et le main avec la declaration du tableau
+
+
 array = [1,2,1]
 
 
