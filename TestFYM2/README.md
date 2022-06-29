@@ -1,7 +1,8 @@
 README
 
 INTRODUCTION
-WINDOWS : 
+
+- WINDOWS : 
 
 Pour lancer le projet vous devez suivre le tuto ci dessous pour installer le compilateur GCC :
 
@@ -14,7 +15,7 @@ Attention veillez a bien vous trouvez dans l'arboresence du dossier TestFYM2 :
 1) g++ main.cpp -o test
 2) ./test
 
-MAC :
+- MAC :
 Suivre ce tutoriel : 
 
 CONTENU DU PROGRAMME :
