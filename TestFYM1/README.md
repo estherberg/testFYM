@@ -23,9 +23,10 @@ https://code.visualstudio.com/docs/cpp/config-clang-mac
 
 CONTENU DU PROGRAMME :
 
+C'est une classe array qui comprend plusieurs methodes qui vont permettrent de calculer 
+dans un tableau la somme , le carré , le cube , la moyenne , les chiffres paires , les chiffres impaires.
 
-
-le programme contient 3 fichier 
+Le programme contient 3 fichier :
 
 - main.cpp : 
 
