@@ -2,7 +2,8 @@ README
 
 INTRODUCTION
 
-- WINDOWS : 
+
+       - WINDOWS : 
 
 Pour lancer le projet vous devez suivre le tuto ci dessous pour installer le compilateur GCC :
 
@@ -15,14 +16,17 @@ Attention veillez a bien vous trouvez dans l'arboresence du dossier TestFYM2 :
 1) g++ main.cpp -o test
 2) ./test
 
-- MAC :
-Suivre ce tutoriel : 
+   - MAC :
+Suivre ce tutoriel : https://code.visualstudio.com/docs/cpp/config-clang-mac 
+
+
+
 
 CONTENU DU PROGRAMME :
 
 Ce programme consiste a trouver les memes chiffres qui s'affichent un nombre impaire de fois. 
 
-- main.cpp : 
+  - main.cpp : 
 
 il contient au debut l'appel de la methode valOdd puis l'affichage du tableau et le main avec la declaration du tableau
 
@@ -30,10 +34,12 @@ il contient au debut l'appel de la methode valOdd puis l'affichage du tableau et
 array = [1,2,1]
 
 
+void affiche(int tab[]) :
+
+fonction qui permet d'afficher le tableau grâce à une boucle qui parcours les cases du tableau.
 
 
-
-int valOdd(int tab[])
+int valOdd(int tab[]) :
 
 Tout d'abord, on initialise un compteur. 
 
