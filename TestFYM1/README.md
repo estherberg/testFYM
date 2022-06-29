@@ -23,6 +23,19 @@ https://code.visualstudio.com/docs/cpp/config-clang-mac
 
 CONTENU DU PROGRAMME :
 
+
+
+le programme contient 3 fichier 
+
+- main.cpp : 
+
+il contient l'appel des methodes afin de pouvoir tester le tableau
+
+- array.h :
+
+il contient le header c'est a dire la declaration de la classe array avec toutes les methodes qui seront detailles dans array.cpp
+
+- array.cpp :
     void init(int tab[]);
     fonction qui initialise le tableau. Cette fonction rempli un tableau avec les valeurs 1,2,3,4 et 5 grâce à une boucle qui avance sur les cases du tableau.
 
