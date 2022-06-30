@@ -24,9 +24,9 @@ https://code.visualstudio.com/docs/cpp/config-clang-mac
 CONTENU DU PROGRAMME :
 
 C'est une classe array qui comprend plusieurs methodes qui vont permettrent de calculer 
-dans un tableau la somme , le carré , le cube , la moyenne , les chiffres paires , les chiffres impaires.
+dans un tableau la somme , le carré , le cube , la moyenne des valeurs et afficher les chiffres pairs, les chiffres impairs.
 
-Le programme contient 3 fichier :
+Le programme contient 3 fichiers :
 
 - main.cpp : 
 
@@ -39,7 +39,7 @@ il contient le header c'est a dire la declaration de la classe array avec toutes
 - array.cpp :
 
     void init(int tab[]);
-    fonction qui initialise le tableau. Cette fonction rempli un tableau avec les valeurs 1,2,3,4 et 5 grâce à une boucle qui avance sur les cases du tableau.
+    fonction qui initialise le tableau. Cette fonction remplit un tableau avec les valeurs 1,2,3,4 et 5 grâce à une boucle qui avance sur les cases du tableau.
 
     void affiche(int tab[]);
     fonction qui permet d'afficher le tableau grâce à une boucle qui parcours les cases du tableau.
@@ -57,7 +57,7 @@ il contient le header c'est a dire la declaration de la classe array avec toutes
     fonction qui permet grâce a une boucle d'additionner chaque valeur et de stocker le résultat dans une variable nommée res.
 
     void even(int tab[]);
-    fonction qui permet grâce à une boucle de parcourir les cases du tableau et d'interroger si la valeur de l'indice est pair celle-ci est affichée, sinon elle n'est pas affichée.
+    fonction qui permet grâce à une boucle, de parcourir les cases du tableau et d'interroger si la valeur de l'indice est pair, si oui, celle-ci est affichée, sinon elle n'est pas affichée.
 
     void odd(int tab[]);
-    fonction qui permet grâce à une boucle de parcourir les cases du tableau et d'interroger si la valeur de l'indice est impair celle-ci est affichée, sinon elle n'est pas affichée.
+    fonction qui permet grâce à une boucle de parcourir les cases du tableau et d'interroger si la valeur de l'indice est impair, si oui, celle-ci est affichée, sinon elle n'est pas affichée.
