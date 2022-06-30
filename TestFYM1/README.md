@@ -51,7 +51,7 @@ il contient le header c'est a dire la declaration de la classe array avec toutes
     fonction qui parcours les cases du tableau et met chaque valeur au cube en multipliant deux fois la valeur par elle-même.
 
     void average(int tab[]);
-    fonction qui permet grâce a une boucle d'additionner chaque valeur et de stocker le résultat dans une variable nommée res. Puis la fontion affiche le résultat trouvé divisé par size c'est à dire la taille du tableau prédéfinie par l'utilisateur.
+    fonction qui permet grâce a une boucle d'additionner chaque valeur et de stocker le résultat dans une variable nommée res. On a également un compteur qui augmente de un à chaque itération ce qui va permettre de calculer le nombre de valeur du tableau. Puis la fontion affiche le résultat trouvé divisé par le compteur cpt.
 
     void sum(int tab[]);
     fonction qui permet grâce a une boucle d'additionner chaque valeur et de stocker le résultat dans une variable nommée res.
