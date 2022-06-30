@@ -24,14 +24,14 @@ Suivre ce tutoriel : https://code.visualstudio.com/docs/cpp/config-clang-mac
 
 CONTENU DU PROGRAMME :
 
-Ce programme consiste a trouver les memes chiffres qui s'affichent un nombre impaire de fois. 
+Ce programme consiste a trouver le chiffre du tableau qui se répète un nombre impair de fois. 
 
   - main.cpp : 
 
 il contient au debut l'appel de la methode valOdd puis l'affichage du tableau et le main avec la declaration du tableau
 
 
-array = [1,2,1]
+array = [1, 0, 0, 1, 0]
 
 
 void affiche(int tab[]) :
@@ -52,6 +52,6 @@ Ainsi s'il n'ya qu'un chiffre dans le tableau, on le retournera car il y'aura un
 Pour un tableau plus long, grâce a la 2eme boucle on avance dans le tableau en continuant de comparer la valeur d'après avec la première du tableau.
 Si celles-ci sont égales, le compteur augmente sinon, la condition n'est pas appliquée et la boucle continue son parcours.
 
-Dès que la première boucle a terminée son parcours, on pose une condition: si le compteur est impair, le programme s'arrette là et renvoie l'élement du tableau puisqu'il n'éxiste qu'un chiffre dans le tableau qui se répète de manière impair. 
+Dès que la première boucle a terminée son parcours, on pose une condition: si le compteur est impair, le programme s'arrette là et renvoie l'élement du tableau puisqu'il n'éxiste qu'un chiffre dans le tableau qui se répète un nombre impair de fois. 
 
 Sinon si le compteur est pair la boucle i augmente et on refait la même chose jusqu'à ce que le compteur soit impair.
